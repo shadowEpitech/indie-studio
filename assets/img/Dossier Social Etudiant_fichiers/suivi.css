@@ -1,0 +1,304 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	padding: 0;
+	line-height: 1.3em;
+	margin: 0;
+	color: #000000;
+	text-align: justify;
+}
+
+#liens {
+	float: left;
+	width: 140px;
+}
+
+.logo {
+	border-bottom: 1px dotted #CCCCCC;
+	float: left;
+	margin: 10px 10px 20px 10px;
+	padding-bottom: 20px;
+}
+
+img {
+	border: 0;
+}
+
+#contenu {
+	background-color : #F0F0F0;
+	min-height: 395px;
+	overflow: hidden;
+	padding: 10px;
+	width: 630px;
+}
+
+a {
+	color: #003465;
+}
+
+a.lien {
+	color: #FF9900;
+	font-weight: bold;
+}
+
+h1 {
+    border-bottom: 1px dotted #727272;	color: #30438f;
+	margin: 0px 0px 30px 0px;
+	padding:3px;
+	line-height: 1.3em;
+}
+
+h2, caption {
+	color: #3760c0;
+	font-size:1.3em;
+	margin: 20px 0px 10px 0px;
+}
+
+#contenu {
+	padding: 10px;
+	overflow: hidden;
+	width: 630px;
+	background-color: #F0F0F0;
+	min-height: 395px;
+}
+
+#contenuBlanc {
+	padding: 10px;
+	overflow: hidden;
+	width: 630px;
+	background-color: #FFFFFF;
+	min-height: 395px;
+}
+
+.blocRight {
+	float: left;
+	padding-bottom: 10px;
+	text-align: right;
+	width: 50%;
+}
+
+.blocLeft {
+	float: left;
+	padding-bottom: 10px;
+	padding-left: 1%;
+	text-align: left;
+	width: 49%;
+}
+
+label {
+	font-size: 0.9em;
+}
+
+input {
+	vertical-align: middle;
+}
+
+legend, h3 {
+	background-color: F0F0F0;
+	color: #3760c0;
+	/*text-align: center; --> ne fonctionne pas*/
+	font-size:1.1em;
+	font-weight: 700;
+}
+
+h4 {
+	font-size:1em;
+	font-weight: 700;
+}
+
+p,ul,ol{
+	font-size: 0.9em;
+	margin: 10px;
+}
+
+.bloc {
+	margin: 0 0 10px 10px;
+	padding-bottom: 20px;
+}
+
+.chevron {
+	background: url("images/chevron.png") no-repeat;
+	font-weight: 700;
+	padding-left: 20px;
+	color: #c84900;
+}
+
+#lien a {
+	background: url(images/pufran.gif) bottom left no-repeat;
+	padding: 2px 0 2px 20px;
+	text-decoration: none;
+	color: #FF9900;
+	font-weight: bold;
+	}
+
+#lien a:hover {
+	color: white;
+	background: #FF9900;
+	}
+	
+.boutons {
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	font-size: 0.9em;
+	margin: 10px;
+}
+
+th {
+	background-color: lightgrey;
+	font-size: 0.9em;
+	font-weight: bold;
+	text-align: center;
+	padding: 1em;
+}
+
+td {
+	font-size: 0.9em;
+	padding: 1em;
+}
+
+.tdNumVoeu {
+	font-size: 1.8em;
+	font-weight: 700;
+	height: 175px;
+	min-height: 145px;
+	padding: 1em;
+	text-align: center;
+	valign: middle;
+}
+
+td p {
+	margin: 0 20px;
+}
+
+#erreur {
+	color: red;
+	text-align: center;
+	font-weight: bold;
+	border: 1px solid red;
+	padding: 5px;
+	margin-bottom: 2em;
+}
+
+.center {
+	text-align: center;
+}
+
+.description {
+	font-style: italic;
+	margin: 2px 0/*0 0 0 30px*/;
+	overflow:hidden;
+	padding-bottom: 10px;
+}
+
+.captionDesc {
+	font-size: 0.7em;
+	font-style: italic;
+}
+/* CZ - Début modification suite Evolution_003 */ 
+#message {
+	color: blue;
+	text-align: center;
+	font-weight: bold;
+	border: 1px solid blue;
+	padding: 5px;
+	margin-bottom: 2em;
+}
+/* CZ - Fin modification suite Evolution_003 */
+
+
+/* Début Commande_08_2016 : Masquage de l'IBAN */
+.bloc2{
+	margin: 5px 0 10px 10px;
+}
+
+.bloc3{
+	margin: 10px 0 10px 10px;
+}
+
+.bloc4{
+	margin: 10px 0 10px 20px;
+}
+/* Fin Commande_08_2016 : Masquage de l'IBAN */
+
+/* Début Commande_20_2016 :  ARPE - ajout de pièces complémentaires */
+#output {
+	width:	570px;
+	height:209px;
+	background:#eee url(/suiviPVE/images/bg_off.png);
+	margin: 15px;
+ }
+ 
+ progressbar { height:2em; text-align: left; overflow: hidden; }
+ progressbar.ui-progressbar-value {margin: -1px; height:100%; }
+
+
+.infocsv {
+	background-color: #FFFFCC;
+	color: #336799;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 2px 0;
+	text-align: left;
+	text-decoration: none;
+	border: none;
+	border-collapse: separate;
+}
+.erreurtitrecsv {
+	border: none;
+	border-collapse: separate;
+	color: #BB3344;
+	background-color: white;
+	font-weight: 700;
+	text-align: left;
+}
+.erreurcsv {
+	background-color: lightcoral;
+	text-align:left;
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 2px 0;						/* = 2px pour top et bottom, 0 pour left et right */
+	border: none;
+	border-collapse: separate;
+}
+
+.erreur {
+	color: red;
+	text-align: center;
+	font-weight: bold;
+	border: 1px solid red;
+	padding: 5px;
+	margin-bottom: 2em;
+}
+
+
+/* Fin Commande_20_2016 :  ARPE - ajout de pièces complémentaires */
+
+/* Début Commande_24_2016 : SuiviPVE - paiement des frais de gestion */
+#confirmPaiement {
+	background-color:white;
+	text-align:center;
+	font-size:15px;
+	border:1px solid;
+	padding:5px;
+}
+.rouge {
+	color: red;
+}
+.vert {
+	color: green;
+}
+.left {
+	text-align: left;
+	/* padding-bottom: 20px; */
+}
+.right {
+	text-align: right;
+	/* padding-bottom: 20px; */
+}
+.paiement {
+	font-weight: bold;
+}
+/* Fin Commande_24_2016 : SuiviPVE - paiement des frais de gestion */

@@ -1,0 +1,8 @@
+/usr/lib64/libglut.so.3.10.0
+/usr/lib64/libglut.so.3
+/usr/lib64/libglut.so
+/usr/include/GL/freeglut.h
+/usr/include/GL/freeglut_ext.h
+/usr/include/GL/freeglut_std.h
+/usr/include/GL/glut.h
+/usr/lib64/pkgconfig/freeglut.pc

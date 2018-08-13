@@ -1,0 +1,85 @@
+<html><head>
+		<title>Dossier Social Etudiant</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+		<link href="Dossier%20Social%20Etudiant_fichiers/suivi.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div id="liens">
+
+	<div class="logo">
+			<img src="Dossier%20Social%20Etudiant_fichiers/MESRI.jpg" alt="Site du ministère de l'enseignement supérieur et de la recherche.">
+	</div>
+	<div class="logo">
+		<a href="http://www.cnous.fr/" target="_blank" title="Site du CNOUS - ouverture dans une nouvelle fenêtre.">
+			<img src="Dossier%20Social%20Etudiant_fichiers/log1.gif" alt="Site du CNOUS : portail institutionnel de la vie étudiante.">
+		</a>
+	</div>
+</div>
+		
+		<div id="contenuBlanc">
+			<h1>Suivi du dossier social étudiant</h1>
+
+		
+		
+		<form name="form1" action="envoi" method="post">
+	 		<div class="boutons">
+				<input name="Fermer" value="Fermer" onclick="window.close();" type="button">
+				<input name="action" value="Document PDF" type="submit">
+			</div>
+		</form>		
+			
+		<p><strong>Eléments pris en compte (N° 2408067629P  Djurovic Nicolas 13/11/1996) :</strong></p>
+<div style="margin-left: 10px;">
+<p>Ressources (revenu brut global) de la mère pour l'année 2016: 0€</p>
+</div>
+<p><strong>Décisions relatives à vos demandes :</strong></p>
+<div style="margin-left: 10px;">
+<p style="color:red;"><b>Vous n'avez pas déclaré l'intention de demander un logement en résidence CROUS.</b></p>
+</div>
+<table cellspacing="0" cellpadding="0" border="1">
+<tbody><tr>
+<th scope="col">Vœu</th>
+<th scope="col">Etudes envisagées, bourse et logement</th>
+</tr>
+<tr>
+<td class="tdNumVoeu">1</td>
+<td>
+<strong>Etudes envisagées</strong>
+<p>
+Etablissement : KREMLIN BICETRE EPITECH - Académie : Créteil
+</p><p>
+Formation : Formation d'ingénieur 3ème année
+</p><p>
+Total des points de charge 4.
+</p>
+<strong>Demande de bourse</strong>
+<p>
+EN ATTENTE DE DECISION
+</p><p>
+
+</p>
+</td>
+</tr>
+<tr>
+<td class="tdNumVoeu">2</td>
+<td><strong>PAS DE VOEU 2</strong>
+</td>
+</tr>
+<tr>
+<td class="tdNumVoeu">3</td>
+<td><strong>PAS DE VOEU 3</strong>
+</td>
+</tr>
+<tr>
+<td class="tdNumVoeu">4</td>
+<td><strong>PAS DE VOEU 4</strong>
+</td>
+</tr>
+</tbody></table>
+
+	
+		
+	</div>
+	
+	<script type="text/javascript" src="Dossier%20Social%20Etudiant_fichiers/suivi.js"></script>
+</body></html>
